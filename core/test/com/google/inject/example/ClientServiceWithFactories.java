@@ -34,6 +34,10 @@ public class ClientServiceWithFactories {
     }
   }
 
+  public static void test(arg1: String, arg2: String, arg3: String, arg4: String, arg5: String){
+    System.out.println("test");
+  }
+
   public static class ServiceFactory {
 
     private ServiceFactory() {}
